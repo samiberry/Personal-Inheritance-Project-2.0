@@ -1,8 +1,5 @@
-public class Green implements GreenTrees
+public interface Green 
 	{
-	public void hasChristmasSpirit()
-	{
-		System.out.println("The Green color gives the Chrostmas spirit.");
-	}
+	public void hasChristmasSpirit();
 }
 

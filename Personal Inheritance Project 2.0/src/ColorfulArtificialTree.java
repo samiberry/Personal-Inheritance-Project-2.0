@@ -1,7 +1,16 @@
 public class ColorfulArtificialTree extends ArtificialTree
 	{
-	public void fotswitheverydecor()
+	public ColorfulArtificialTree()
+	{
+		name = "Articial colorful";
+	}
+	public void fitswitheverydecor()
 		{
-		System.out.println("Can go with ever decor in every house.");
+		System.out.println(name + " tree can go with every decor in every house.");
 		}
+	@Override
+	public void holdsOrnaments()
+	{
+		System.out.println(name + " tree is great to decorate for Christmas.");
+	}
 	}

@@ -11,8 +11,14 @@ public class ChristmasTreeRunner
 		
 		for(int i = 0; i < christmastree.length; i++)
 		{
-			christmastree[i].holdsOrnaments();
 			christmastree[i].flamable();
+			christmastree[i].reusable();
+			christmastree[i].givesSmell();
+			christmastree[i].dies();
+			christmastree[i].holdsOrnaments();
+			christmastree[i].fitswitheverydecor();
+			christmastree[i].myGreen.hasChristmasSpirit();
+			
 		}
 
 	}

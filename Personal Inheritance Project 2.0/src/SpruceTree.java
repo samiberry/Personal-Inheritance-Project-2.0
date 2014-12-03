@@ -3,6 +3,7 @@ public class SpruceTree extends RealTree
 	public SpruceTree()
 	{
 	name = "The Spruce";
+	myGreen = (Green) new IsGreen();
 	}
 	@Override
 	public void givesSmell()
