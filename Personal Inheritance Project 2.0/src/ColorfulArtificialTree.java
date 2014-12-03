@@ -3,6 +3,7 @@ public class ColorfulArtificialTree extends ArtificialTree
 	public ColorfulArtificialTree()
 	{
 		name = "Articial colorful";
+		myGreen = (Green) new IsNotGreen();
 	}
 	public void fitswitheverydecor()
 		{
